@@ -1,7 +1,1 @@
 fghgfhfgh# jenkinstest
-dfhfdhffdhdf
-helloworld1dfgfdgdgfd
-helloworld2fghfhfhfg
-sdfsfsdfssdgdsggdsg
-fgdfgdgfdf
-dfgdfgdfgdf
