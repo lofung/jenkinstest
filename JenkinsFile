@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    
+    triggers {
+        githubPush()
+      }
+    stages {
+        stage('Hello') {
+            steps {
+                echo "JENKINS URL IS %JENKINS_URL%"
+                echo "BUILD_ID IS %BUILD_ID%"
+            }
+        }
+    }
+}
