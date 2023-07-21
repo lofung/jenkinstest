@@ -7,8 +7,8 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo "JENKINS URL IS %JENKINS_URL%"
-                echo "BUILD_ID IS %BUILD_ID%"
+                echo "JENKINS URL IS %env.JENKINS_URL%"
+                echo "BUILD_ID IS %env.BUILD_ID%"
             }
         }
     }
